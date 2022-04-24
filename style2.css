@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Play;
+}
+
+.wrapper{
+	/* background: url(children.jpg) no-repeat; */
+	background-size: cover;
+	height: 850px;
+	width: auto;
+     opacity: 0.9;
+}
+
+#heading{
+	font-size: 30px;
+	color: lightseagreen;
+	margin-left: 2%;
+}
+
+.wrapper .center{
+	text-align: center;
+	align-items: center;
+}
+
+.center h1{
+	color: seagreen;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center h2{
+	color: #000;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 4%;
+	text-align: center;
+}
+
+.center .buttons{
+    margin-top: 4%;
+	align-items: center;
+	text-align: center;
+}
+
+.buttons button{
+    align-items: center;
+    text-align: center;
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff;
+	background: seagreen;
+	outline: none;
+	cursor: pointer;
+	border: 2px solid transparent;
+	border-radius: 25px;
+	transition: .4s;
+}
+
+.buttons button:hover{
+	background: lightskyblue;
+}
+
+.team{
+	color: lightseagreen;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	font-size: 30px;
+}
+
+#table_title{
+     font-size: 35px;
+     font-weight: 600;
+}
